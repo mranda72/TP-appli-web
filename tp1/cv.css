@@ -1,6 +1,6 @@
 body
 {
-	background : gray;
+	background :linear-gradient(gray,white);
 }
 table
 {
@@ -14,10 +14,10 @@ table
 	color:orange;
 }
 table tr:nth-child(odd){
-	background-color:yellow;
+	background-color:linear-gradient(gray,white);
 }
 table tr:hover{
-	background-color:red;
+	background-color:gray;
 }
 img:hover{
 	transform : scale(2);
