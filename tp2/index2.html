@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>TP2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="CS.css"/>
+		<script type="text/javascript" src="formulaire.js"></script>
+</head>
+<body>
+<h1>Saisie d'une fiche "Personne"</h1>
+<form id="formulaire">
+<label for="Nom">Nom </label>
+<input type="text" id="name" name="Nom"/><br>
+<label for="Prénom">Prénom</label>
+<input type="text" id="prénom" name="Prénom"/><br>
+<label for="date">Date de naissance</label>
+<input type="text" id="date" name="date" placeholder="JJ/MM/AAAA"/><br>
+<label for="adresse">Adresse</label>
+<input type="text" id="adresse" name="adresse"/><br>
+<label for="mail">Mail</label>
+<input type="text" id="mail" name="mail"><br><br>
+<input id="value" type="button" value="Valider" onclick="validation()" />
+</form>
+<div id="error"></div><br>
+<div id="result"></div>
+</body>
+</html>
+
+
